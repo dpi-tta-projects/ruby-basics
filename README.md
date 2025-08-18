@@ -1,6 +1,6 @@
 # Ruby Basics
 
-Companion project for https://github.com/dpi-tta-lessons/ruby-basics
+Companion project for <https://github.com/dpi-tta-lessons/ruby-basics>
 
 ## Instructions
 
