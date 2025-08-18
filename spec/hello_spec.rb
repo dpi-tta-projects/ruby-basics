@@ -11,7 +11,6 @@ RSpec.describe "hello.rb" do
     stdout.gsub!("\"", "")
     stdout.gsub!("\n", "")
 
-
     expect(stdout).to eq("hello, world")
   end
 end

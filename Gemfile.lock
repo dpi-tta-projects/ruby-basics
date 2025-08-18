@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/dpi-tta/grade-runner
-  revision: a217a05fb09623fddea0d606510e6b109be4f96e
+  revision: a5dbf9520ab5325280936231bd7a1cc32943c41f
   specs:
     grade_runner (0.0.14)
       activesupport (>= 2.3.5)
       faraday-retry (~> 1.0.3)
       octokit (~> 5.0)
-      oj (~> 3.16)
+      oj (~> 3.16, >= 3.16.3)
       rake (~> 13)
       zip
 
