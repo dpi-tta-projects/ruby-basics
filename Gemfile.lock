@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/ianheraty/Developer/grade_runner
+GIT
+  remote: https://github.com/dpi-tta/grade-runner
+  revision: a8d336d246e276bd585fa07fc72fe065ae8deff5
   specs:
     grade_runner (0.0.14)
       activesupport (>= 2.3.5)
