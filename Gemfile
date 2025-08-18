@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-# TODO: support 3.4
 ruby file: ".ruby-version"
 
 gem "grade_runner", git: "https://github.com/dpi-tta/grade-runner"
