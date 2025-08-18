@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/ianheraty/Developer/grade_runner
+GIT
+  remote: https://github.com/dpi-tta/grade-runner
+  revision: a217a05fb09623fddea0d606510e6b109be4f96e
   specs:
     grade_runner (0.0.14)
       activesupport (>= 2.3.5)
@@ -85,7 +86,6 @@ PLATFORMS
 
 DEPENDENCIES
   grade_runner!
-  rake
   rspec
 
 RUBY VERSION
