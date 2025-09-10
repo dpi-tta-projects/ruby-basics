@@ -3,14 +3,7 @@ require 'open3'
 
 RSpec.describe "hello.rb" do
   it "outputs 'hello, world'", points: 1 do
-    stdout, stderr, status = Open3.capture3("ruby hello.rb")
-
-    expect(status.exitstatus).to eq(0), "Script exited with non-zero status: #{stderr}"
-
-    # Normalize the output for both puts, pp, p, print
-    stdout.gsub!("\"", "")
-    stdout.gsub!("\n", "")
-
-    expect(stdout).to eq("hello, world")
+    output = run_script_and_capture_lines("hello.rb")
+    expect(output).to eq(["hello, world"])
   end
 end
